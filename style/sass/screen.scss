@@ -91,6 +91,19 @@ h1 {
     margin:0 3px;
 }
 
+a.old_archive {
+    color:#bbbbbb;
+    background-color:#efefef;
+    font-size: $normal-size - 3;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+a.old_archive:hover {
+    background-color: #ddd;
+    color: #333333;
+}
+
 #footer {
     border-top: 1px solid #eee;
     margin-top:20px;

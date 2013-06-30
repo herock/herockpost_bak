@@ -1131,6 +1131,22 @@ h1 {
 }
 
 /* line 94, ../../style/sass/screen.scss */
+a.old_archive {
+  color: #bbbbbb;
+  background-color: #efefef;
+  font-size: 11px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 102, ../../style/sass/screen.scss */
+a.old_archive:hover {
+  background-color: #ddd;
+  color: #333333;
+}
+
+/* line 107, ../../style/sass/screen.scss */
 #footer {
   border-top: 1px solid #eee;
   margin-top: 20px;

@@ -12,17 +12,17 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.herockpost.com/articles/</loc>
-    <lastmod>2013-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>http://www.herockpost.com/atom/</loc>
     <lastmod>2013-06-30</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://www.herockpost.com/rss/</loc>
+    <lastmod>2013-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.herockpost.com/articles/</loc>
     <lastmod>2013-06-30</lastmod>
     <changefreq>weekly</changefreq>
   </url>

@@ -60,6 +60,6 @@ VIEWS = {
 THEME = 'theme'
 ENGINE = 'acrylamid.templates.jinja2.Environment'
 DATE_FORMAT = '%d.%m.%Y, %H:%M'
-DEPLOYMENT = {
-    'blog': 'rsync -ruv $OUTPUT_DIR root@192.155.83.165:/home/imom0/www/herockpost/blog/'
-}
+# DEPLOYMENT = {
+#     'blog': 'rsync -ruv $OUTPUT_DIR root@192.155.83.165:/home/imom0/www/herockpost/blog/'
+# }

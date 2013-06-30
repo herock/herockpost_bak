@@ -5,3 +5,4 @@ sublime-project
 .DS_Store
 .Python
 .cache/
+style/.sass-cache/
