@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="231px" height="106px" viewBox="0 0 231 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>logo</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,66 L0,106 L212,106 L212,66 L0,66 Z M0,66" id="background" fill="#FFFFFF"></path>
+        <text id="Herock Post" fill="#000000" font-family="Avenir" font-size="36" font-weight="686" x="24" y="113.1761">
+            <tspan>Herock Post</tspan>
+        </text>
+        <path d="M178.999999,75 L149.61074,90.4508514 L155.223587,57.7254258 L131.447174,34.5491514 L164.305373,29.7745717 L179.000001,5.55111512e-15 L193.694637,29.7745791 L226.552834,34.5491752 L202.776411,57.7254321 L208.389259,90.4508521 L178.999999,75 Z M178.999999,75" id="Star 1" stroke="#979797" fill="#D8D8D8"></path>
+    </g>
+</svg>

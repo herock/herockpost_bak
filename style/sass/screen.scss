@@ -1,0 +1,102 @@
+// This import applies a global reset to any page that imports this stylesheet.
+@import "blueprint/reset";
+
+// To configure blueprint, edit the partials/_base.sass file.
+@import "partials/base";
+
+// Import all the default blueprint modules so that we can access their mixins.
+@import "blueprint";
+
+// Import the non-default scaffolding module.
+@import "blueprint/scaffolding";
+
+// Generate the blueprint framework according to your configuration:
+@include blueprint;
+
+@include blueprint-scaffolding;
+
+a {
+    @include hover-link;
+}
+
+#header {
+    margin-top:20px;
+    border-bottom: 1px dotted #ccc;
+    img {
+        height: 40px;
+    }
+}
+
+#slogan {
+    float: right;
+    margin-top: 15px;
+    color: $light-grey;
+    letter-spacing: 3px;
+}
+
+body {
+    font-size: $normal-size;
+    font-family: 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', Verdana, Arial, Helvetica, sans-serif;
+}
+
+header.title {
+    // border-bottom: 1px solid #eeeeee;
+    // padding: 5px 0 5px 0;
+    margin-top: 5px;
+}
+
+.content {
+    margin-top: 20px;
+    }
+
+article {
+    margin: 15px 0px;
+    p {
+        margin-bottom: 10px;
+        line-height: 165%;
+    }
+}
+
+h1 {
+    font-size: $normal-size;
+    color:$dark-blue;
+    margin-right: 20px;
+    }
+
+.post_h1 {
+    font-size: $normal-size + 2;
+    margin: 1px 0 10px 0;
+    border: 0;
+    color: #003063;
+    font-family: "Hiragino Sans GB", STHeiti, "Microsoft YaHei", Georgia, 'Times New Roman', serif;
+    font-size: medium;
+    text-align: left;
+}
+
+.meta {
+    color:#BFBFBF;
+    font-size: 12px;
+    }
+
+.post_meta {
+    margin: 15px 0;
+    }
+
+.right {
+    float: right;
+}
+
+.separator {
+    color: #cccccc;
+    margin:0 3px;
+}
+
+#footer {
+    border-top: 1px solid #eee;
+    margin-top:20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #ccc;
+    font-size: 11px;
+    // color:#bbbbbb;background-color:#efefef;
+}
