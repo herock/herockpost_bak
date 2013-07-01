@@ -16,7 +16,7 @@ PRODUCT_SERVER_DIR = '/home/imom0/www/herockpost/blog/herockpost'
 
 # workflow local
 
-def release(version):
+def release():
     """ 发布到github """
     push('master')
 
