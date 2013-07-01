@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>用Acrylamid搭建自己的Blog - Herock Post</title>
+  <link media="all" href="/stylesheets/screen.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    <meta name="description" content="## 安装 ##
+
+1. 安装 acrylamid：
+
+    ```
+    pip instal..." />
+    <meta name="keywords" content="python" />
+</head>
+<body>
+  <div class="container">
+    <div id="header">
+      <a href="/"><img src="/images/logo.png"></a>
+      <span id="slogan">Blog让独处更有趣</span>
+    </div>
+<div class="content">
+    
+        <article>
+    <header class="title">
+        
+        <h1 class="post_h1">
+            
+                用Acrylamid搭建自己的Blog
+            
+        </h1>
+        <div class="meta post_meta">
+            2012年12月10日 20:03
+            
+        </div>
+    </header>
+    
+
+    <h3>安装</h3>
+<ol>
+<li>
+<p>安装 acrylamid：</p>
+<p><code>pip install acrylamid</code></p>
+</li>
+<li>
+<p>安装 markdown：</p>
+<p><code>pip install markdown</code></p>
+</li>
+<li>
+<p>安装 translit&shy;codec：</p>
+<p><code>pip install translitcodec</code>
+如果不装的话，会出现警告：</p>
+<p><code>warn  no 'translitcodec' found, using NFKD algorithm</code></p>
+</li>
+<li>
+<p>安装 jinja2：</p>
+<p><code>pip install jinja2</code></p>
+</li>
+</ol>
+<h3>初始化</h3>
+<p>其实就是创建blog，用以下的命令：</p>
+<p><code>acrylamid init /path/to/blog/</code></p>
+<p>创建成功后的目录中有这些内容：</p>
+<ol>
+<li>
+<p><code>conf.py</code></p>
+<p>配置文件</p>
+</li>
+<li>
+<p>content</p>
+<p>所有写的文章会自动放到这里，保存成纯文本格式</p>
+</li>
+<li>
+<p>theme</p>
+<p>主题，相当于blog的模板</p>
+</li>
+</ol>
+<h3>设置</h3>
+<p>用文本编辑器打开 <code>conf.py</code>，设置语言为英语：</p>
+<p>```</p>
+<h2>-<em>- encoding: utf-8 -</em>-</h2>
+<h2>This is your con&shy;fig&shy;u&shy;ra&shy;tion file.  Please write valid python!</h2>
+<h2>See http://posativ.org/acrylamid/conf.py.html</h2>
+<p>LANG = 'en' # 本来可能没有这一项，把它加在这里就行了
+```</p>
+<p>如果不设置语言为英语的话，等写完blog开始编译的时候，就会出现如下警告：</p>
+<p><code>warn  no hyph-definition found for 'zh'</code></p>
+<p>意思是无法为中文使用连字符，所以你如果不想把语言设置成英语，就在 <code>conf.py</code> 中关掉连字符的设定也可以避免看到这个警告：</p>
+<p><code>FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']</code></p>
+<p>改成：</p>
+<p><code>FILTERS = ['markdown+codehilite(css_class=highlight)', 'h1']</code></p>
+<h3>写新文章</h3>
+<p>使用这个命令：</p>
+<p><code>acrylamid new 'your entry title'</code></p>
+<p>尽量不要用中文，否则会无法生成友好的s&shy;lug。</p>
+<p>acrylamid 会自动帮你创建好一个文本文件，并调用你的默认文本编辑器打开，就可以开始写了，写完并保存后，运行下面的命令来编译它（就是生成静态页面）。</p>
+<p><code>acrylamid co</code></p>
+<p>生成静态页面后，可以用如下命令来查看效果：</p>
+<p><code>acrylamid view</code></p>
+<p>默认会调用 8000 端口打开，如果你的 8000 端口被占用了，可以指定其它端口：</p>
+<p><code>acrylamid view -p 1234</code></p>
+<p>用浏览器打开 <code>127.0.0.1:8000</code> 或是将 <code>8000</code> 换成你指定的端口来访问就可以了。</p>
+    <footer>
+        
+    </footer>
+    
+    
+</article>
+    
+    
+</div>
+
+<div class="footer">
+      
+<div id="footer">
+© 2004 - 2013 Herock Xia all rights reserved.<br>Gmail: herock<span class="separator"> | </span>微信：herockpost
+</div>
+
+    </div>
+  </div>
+</body>
+</html>
