@@ -36,7 +36,7 @@ a {
 
 body {
     font-size: $normal-size;
-    font-family: 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', Verdana, Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue',"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,sans-serif, STHeiti, Verdana;
 }
 
 header.title {
@@ -68,14 +68,14 @@ h1 {
     margin: 1px 0 10px 0;
     border: 0;
     color: #003063;
-    font-family: "Hiragino Sans GB", STHeiti, "Microsoft YaHei", Georgia, 'Times New Roman', serif;
+    font-family: 'Helvetica Neue',"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,sans-serif, STHeiti, Verdana;
     font-size: medium;
     text-align: left;
 }
 
 .meta {
     color:#BFBFBF;
-    font-size: 12px;
+    font-size: 14px;
     }
 
 .post_meta {
@@ -94,10 +94,11 @@ h1 {
 a.old_archive {
     color:#bbbbbb;
     background-color:#efefef;
-    font-size: $normal-size - 3;
+    font-size: $normal-size;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
+    width: 100%;
 }
 a.old_archive:hover {
     background-color: #ddd;
@@ -107,9 +108,9 @@ a.old_archive:hover {
 #footer {
     border-top: 1px solid #eee;
     margin-top:20px;
-    padding-top: 20px;
+    padding: 20px 0;
     text-align: center;
     color: #ccc;
-    font-size: 11px;
+    font-size: $normal-size - 2;
     // color:#bbbbbb;background-color:#efefef;
 }
