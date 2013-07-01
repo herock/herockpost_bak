@@ -2,7 +2,7 @@
 title: 用Acrylamid搭建自己的Blog
 date: 10.12.2012, 20:03
 tags: python
-draft: False
+draft: True
 ---
 
 ## 安装 ##

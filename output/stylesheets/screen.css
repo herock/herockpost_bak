@@ -1071,7 +1071,7 @@ body {
 }
 
 /* line 42, ../../style/sass/screen.scss */
-header.title {
+.title {
   margin-top: 5px;
 }
 
@@ -1081,18 +1081,18 @@ header.title {
 }
 
 /* line 52, ../../style/sass/screen.scss */
-article {
+.article {
   margin: 15px 0px;
 }
 /* line 54, ../../style/sass/screen.scss */
-article p {
+.article p {
   margin-bottom: 10px;
   line-height: 165%;
 }
 
 /* line 60, ../../style/sass/screen.scss */
 h1 {
-  font-size: 14px;
+  font-size: 16px;
   color: #003063;
   margin-right: 20px;
 }
@@ -1131,6 +1131,15 @@ h1 {
 }
 
 /* line 94, ../../style/sass/screen.scss */
+h5 {
+  margin-top: 30px;
+  border-bottom: 1px solid #eeeeee;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 102, ../../style/sass/screen.scss */
 a.old_archive {
   color: #bbbbbb;
   background-color: #efefef;
@@ -1141,16 +1150,16 @@ a.old_archive {
   width: 100%;
 }
 
-/* line 103, ../../style/sass/screen.scss */
+/* line 111, ../../style/sass/screen.scss */
 a.old_archive:hover {
   background-color: #ddd;
   color: #333333;
 }
 
-/* line 108, ../../style/sass/screen.scss */
-#footer {
-  border-top: 1px solid #eee;
-  margin-top: 20px;
+/* line 116, ../../style/sass/screen.scss */
+.footer {
+  border-top: 1px solid #ccc;
+  margin-top: 25px;
   padding: 20px 0;
   text-align: center;
   color: #ccc;
