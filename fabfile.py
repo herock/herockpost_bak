@@ -30,6 +30,7 @@ def push(branch='master'):
 @roles('product')
 def deploy_blog():
     """ 在产品服务器上部署新版本 """
+    release()
     with cd(PRODUCT_SERVER_DIR):
         get_latest_version()
     restart_nginx()
