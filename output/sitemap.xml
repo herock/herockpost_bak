@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.herockpost.com/</loc>
+    <loc>http://herockpost.com/</loc>
     <lastmod>2013-07-02</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.herockpost.com/atom/</loc>
-    <lastmod>2013-07-01</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.herockpost.com/articles/</loc>
+    <loc>http://herockpost.com/atom/</loc>
     <lastmod>2013-07-02</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.herockpost.com/2013/07/02/reload/</loc>
+    <loc>http://herockpost.com/articles/</loc>
+    <lastmod>2013-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://herockpost.com/2013/07/02/reload/</loc>
     <lastmod>2013-07-02</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.herockpost.com/rss/</loc>
-    <lastmod>2013-07-01</lastmod>
+    <loc>http://herockpost.com/rss/</loc>
+    <lastmod>2013-07-02</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

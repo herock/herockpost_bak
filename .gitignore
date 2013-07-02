@@ -6,4 +6,4 @@ sublime-project
 .Python
 .cache/
 *.pyc
-style/.sass-cache/
+style/.sass-cache/*/*

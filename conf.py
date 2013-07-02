@@ -7,7 +7,7 @@ LANG = 'en'
 
 SITENAME = 'Herock Post'
 SLOGAN = 'Blog让独处更有趣'
-WWW_ROOT = 'http://www.herockpost.com/'
+WWW_ROOT = 'http://herockpost.com/'
 
 AUTHOR = 'herock'
 EMAIL = 'herock@gmail.com'
