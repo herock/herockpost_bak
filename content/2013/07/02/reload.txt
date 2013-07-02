@@ -4,12 +4,21 @@ date: 02.07.2013, 01:44
 slug: reload
 filter: [markdown]
 ---
-Google Reader已经永远消失了，不知道这篇文章发出来，还有几个曾经的“RSS订阅者”能看得到。
+Google Reader 已经永远消失了，留在 Reader <a href="http://www.google.com/reader/about/">页面</a>上的，是这封简短的信：
 
-Google关闭Reader，公布出来的理由是说已经没多少人写Blog了，听到这个消息我很高兴，时间这把杀猪刀，终于把那些不是真的喜欢做这件事的人，都给干掉了。
+>**Thank you for stopping by.**
+
+>Google Reader has been discontinued. We want to thank all our loyal fans. We understand you may not agree with this decision, but we hope you'll come to love these alternatives as much as you loved Reader.
+
+>Sincerely,
+
+>The Google Reader team
+
+不知道这篇文章发出来，还有几个曾经的“RSS订阅者”能看得到。
+
+Google关闭Reader，公布出来的理由是说已经没多少人写Blog了，听到这个消息我挺高兴，时间这把杀猪刀，终于把那些不是真的喜欢做这件事的人，都给干掉了。
 
 言下之意显然是说我是真的喜欢写Blog的人。但为什么？
-
 
 
 

@@ -11,16 +11,17 @@ $blueprint-grid-margin: 10px;
 
 // Font color
 $light-grey: #bfbfbf;
-$dark-blue: #003063;
+// $dark-blue: #003063;
+$link-color: #1F7E9A;
 
 // Font size
 $normal-size: 14px;
 
 @mixin hover-link {
   text-decoration: none;
-  color:$dark-blue;
+  color:$link-color;
   &:hover, &:active, &:focus, &:visited {
     text-decoration: underline;
-    color:$dark-blue;
+    color:$link-color;
   }
 }
