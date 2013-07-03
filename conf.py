@@ -33,6 +33,7 @@ VIEWS = {
 
     '/atom/': {'filters': ['h2', 'nohyphenate'], 'view': 'atom'},
     '/rss/': {'filters': ['h2', 'nohyphenate'], 'view': 'rss'},
+    '/index.xml': {'filters': ['h2', 'nohyphenate'], 'view': 'rss'},
 
     '/articles/': {'view': 'articles'},
 
