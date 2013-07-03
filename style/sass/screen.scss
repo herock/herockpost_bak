@@ -52,22 +52,22 @@ body {
 .article {
     margin: 15px 0px;
     p {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         line-height: 165%;
     }
 }
 
 h1 {
-    font-size: $normal-size + 2;
-    color:$link-color;
+    font-size: $normal-size + 4;
+    color: #888888;
     margin-right: 20px;
+    letter-spacing: 2px;
     }
 
 .post_h1 {
-    font-size: $normal-size + 2;
+    // font-size: $normal-size + 2;
     margin: 1px 0 10px 0;
     border: 0;
-    color: #003063;
     font-family: 'Helvetica Neue',"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,sans-serif, STHeiti, Verdana;
     font-size: medium;
     text-align: left;
