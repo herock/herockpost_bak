@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://herockpost.com/</loc>
-    <lastmod>2013-07-02</lastmod>
+    <lastmod>2013-07-03</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -12,12 +12,12 @@
   </url>
   <url>
     <loc>http://herockpost.com/articles/</loc>
-    <lastmod>2013-07-02</lastmod>
+    <lastmod>2013-07-03</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://herockpost.com/2013/07/02/reload/</loc>
-    <lastmod>2013-07-02</lastmod>
+    <lastmod>2013-07-03</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
